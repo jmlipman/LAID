@@ -11,7 +11,7 @@
 % @param episode: state or vector of states that will be colored
 
 
-function colorCells( episode )
+function colorCellsA( episode )
     
     % I can avoid painting the same area removing repeated states
     episode = unique(episode); 
