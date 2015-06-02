@@ -231,7 +231,7 @@ if GUI
     
 
     
-    colorCells(finalEpisode);
+    colorCellsA(finalEpisode);
     updateVfield(V);
     
 end
