@@ -5,7 +5,7 @@
 % - Activate or desactivate the GUI.
 % - Auto generate a maze (walls) or leave it with no walls.
 % - Choose learning rate, discounted reward and epsilon.
-% - Choose maximum iterations and maximum iterations within an episode.
+% - Choose maximum iterations and maximum itercoations within an episode.
 %
 % You can do with this code whatever you want. The main purpose is help
 % people learning about this. Also, there is no warranty of any kind.
@@ -213,6 +213,6 @@ if GUI
        end
     end   
     
-    colorCells(finalEpisode);
+    colorCellsB(finalEpisode);
    
 end
