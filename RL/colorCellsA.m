@@ -1,4 +1,4 @@
-% COLORCELLS.m - Color cells.
+% COLORCELLSA.m - Color cells.
 % 
 % This code will color a certain cell or a vector of cells given its state.
 %
