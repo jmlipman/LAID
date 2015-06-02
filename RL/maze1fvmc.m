@@ -187,7 +187,7 @@ while counter~=(maxCounter-1)
     % I delete the current V(s) values
     delete(findall(gcf, 'tag', 'tmptext'));
     % I draw the new cells
-    colorCells(episode);
+    colorCellsA(episode);
     
     % Update values of V(s). I take the index of the last episode of each
     % state because it's the closest to the goal, and I keep its distance.
