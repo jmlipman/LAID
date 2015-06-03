@@ -22,5 +22,12 @@ function [ output ] = activation( input, type )
        end
     elseif strcmp(type,'sigmoid')
         output=1/(1+exp(-input));
+    elseif strcmp(type,'Dsigmoid') % derivative of the previous sigmoid
+        output=activation(input,'sigmoid')*(1-activation(input,'sigmoid'));
+    elseif strcmp(type,'tansigmoid')
+        output=tanh(input);
+    elseif strcmp(type,'linear')
+        output=input;
     end
 end
+
