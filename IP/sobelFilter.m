@@ -47,7 +47,7 @@ function [ result, directions ] = sobelFilter(image, saveDirections)
        for y=1:height
            for x=1:width
                
-               angle = atan2(Gy(y,x),Gx(y,x))
+               angle = atan2(Gy(y,x),Gx(y,x));
                
                if angle>=22.5 && angle <=67.5
                    % Vertical-right /
