@@ -14,7 +14,7 @@
 % rgb2gray(imread('image.jpg'))
 % @param (optional) saveDirections: if it is 1, it will save directions
 % (for Canny)
-% @return result: matrix after the convolution.
+% @return result: filtered image.
 % @return (optional) directions: directions obtained for Canny.
 
 function [ result, directions ] = sobelFilter(image, saveDirections)
