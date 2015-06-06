@@ -15,12 +15,18 @@
 %
 % @param data: matrix which usually corresponds to the image.
 % @param template: matrix to convolve with data.
-% @param preserve: if the value is 0, the size of the matrix will not be
+% @param (optional) preserve: if the value is 0, the size of the matrix will not be
 % preserved, and therefore, it will be smaller depending on the size of the
 % template.
 % @return result: matrix after the convolution.
 
-function [ result ] = myConv( data, template, preserve )
+function [ result ] = myConv( data, template, preserve)
+
+    % Default values
+    switch nargin
+        case 2
+            preserve = 1;
+    end
     
     templateHeight = size(template,1);
     templateWidth = size(template,2);
@@ -56,6 +62,7 @@ function [ result ] = myConv( data, template, preserve )
            winInitX = x-horizontalSeparation;
            window = double(data(winInitY:winInitY+templateHeight-1,winInitX:winInitX+templateWidth-1));
            result(y-offsetY,x-offsetX) = sum(sum(window.*template));
+           
        end
     end
 
