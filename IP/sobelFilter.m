@@ -10,7 +10,8 @@
 % Juan Miguel Valverde Martinez
 % http://laid.delanover.com
 %
-% @param image: image to which the filter is applied.
+% @param image: grayscale image to which the filter is applied. You can use
+% rgb2gray(imread('image.jpg'))
 % @param (optional) saveDirections: if it is 1, it will save directions
 % (for Canny)
 % @return result: matrix after the convolution.
