@@ -41,8 +41,6 @@ function [ result ] = cannyEdgeDetector( image, preserve, gaussSize, gaussSigma 
     
     gauss = myConv(image, gaussTemplate, preserve);
 
-    
-    
     [sobel,directions] = sobelFilter(gauss,1);
     
     height = size(sobel,1);
