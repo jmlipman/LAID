@@ -10,10 +10,8 @@
 % Juan Miguel Valverde Martinez
 % http://laid.delanover.com
 %
-% @param wholeInputs: matrix A to be iterated.
-% @param input: matrix which will iterate over matrix A to do convolution.
-% @param type: there might be more types of kernel function in the future.
-% @return: result matrix of the convolution.
+% @param input: input samples which have coordinates and the class they
+% belong to.
 
 function [] = plotPoint( input )
 
