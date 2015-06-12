@@ -89,7 +89,7 @@ while passes<max_passes
                   % combination
                   if H==L
                      %disp('break1');
-                     break; % continue to next i
+                     continue; % continue to next j
                   end
 
                   % Compute eta
@@ -100,7 +100,7 @@ while passes<max_passes
                   % maximum.
                   if eta >= 0
                       %disp('break2');
-                      break;
+                      continue;
                   end
 
                   % Compute and clip alphaj to fulfill KKT constraint that
@@ -119,7 +119,7 @@ while passes<max_passes
                   %  alpha(i) since they're basically the same.
                   if abs(alpha(j)-alphajOld) < tolerance
                       %disp('break3');
-                      break;
+                      continue;
                   end
 
                   % AlphaI is related to the increament of alphaJ
