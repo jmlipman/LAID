@@ -129,17 +129,6 @@ end
 
 
 % Calculate the distances
-% This makes no sense....
-%{
-for a=1:test.length
-    sumCum=0;
-    for b=1:eigenfaces.used
-        sumCum = sumCum + (test.w(a,:)-ts.w(a,b)).^2;
-        test.dist(a,b) = test.w(a,b)-ts.w(a,b);
-    end
-    test.diff{a} = sqrt(sumCum);
-end
-%}
 for a=1:test.length
     for b=1:ts.length
         test.dist(a,b) = sqrt(sum((test.w(a,:)-ts.w(b,:)).^2));
