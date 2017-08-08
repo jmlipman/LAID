@@ -40,7 +40,6 @@ for i in range(4): # Using the corners
 [U,S,V]=np.linalg.svd(A)
 m = V[-1,:]
 H = np.reshape(m,(3,3))
-#H=H.T
 
 
 # It should be close to zero
