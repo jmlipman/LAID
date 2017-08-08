@@ -1,4 +1,4 @@
-# homography.m - Simple homography example
+# homography.py - Simple homography example
 # 
 # This code implements an homography algorithm based on SVD.
 #
