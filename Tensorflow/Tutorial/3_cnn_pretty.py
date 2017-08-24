@@ -1,6 +1,6 @@
 # Author: Juan Miguel Valverde Martinez
 # Date: 24 August 2017
-# Youtube tutorial link: hXXX
+# Youtube tutorial link: https://www.youtube.com/watch?v=9x8TR8cc9BA
 # Index: http://laid.delanover.com/tensorflow-tutorial/
 
 import numpy as np
