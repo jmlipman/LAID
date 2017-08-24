@@ -1,6 +1,6 @@
 # Author: Juan Miguel Valverde Martinez
 # Date: 24 August 2017
-# Youtube tutorial link: XX
+# Youtube tutorial link: https://www.youtube.com/watch?v=bUHFDxbd5uo
 # Index: http://laid.delanover.com/tensorflow-tutorial/
 
 import tensorflow as tf
