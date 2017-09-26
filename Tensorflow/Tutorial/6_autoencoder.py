@@ -1,6 +1,6 @@
 # Author: Juan Miguel Valverde Martinez
 # Date: 5 September 2017
-# Youtube tutorial link: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+# Youtube tutorial link: https://www.youtube.com/watch?v=H3sg6K5iDBM
 # Index: http://laid.delanover.com/tensorflow-tutorial/
 
 # Autoencoder
