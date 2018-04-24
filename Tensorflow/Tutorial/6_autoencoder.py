@@ -3,6 +3,8 @@
 # Youtube tutorial link: https://www.youtube.com/watch?v=H3sg6K5iDBM
 # Index: http://laid.delanover.com/tensorflow-tutorial/
 
+# Thanks to Syam who commented on my blog a very important typo I had in the code
+
 # Autoencoder
 
 import numpy as np
@@ -52,12 +54,12 @@ def getModel():
 
         with tf.variable_scope("conv2",reuse=True) as scope:
                 W = tf.get_variable("W")
-                layers.append(tf.nn.conv2d_transpose(layers[-5],W,[tf.shape(layers[-5])[0],14,14,4],strides=[1,2,2,1],padding="SAME"))
+                layers.append(tf.nn.conv2d_transpose(layers[-1],W,[tf.shape(layers[-5])[0],14,14,4],strides=[1,2,2,1],padding="SAME"))
                 l5_act = tf.nn.relu(layers[-1])
 
         with tf.variable_scope("conv1",reuse=True) as scope:
                 W = tf.get_variable("W")
-                layers.append(tf.nn.conv2d_transpose(layers[-9],W,[tf.shape(layers[-9])[0],28,28,1],strides=[1,2,2,1],padding="SAME"))
+                layers.append(tf.nn.conv2d_transpose(layers[-1],W,[tf.shape(layers[-9])[0],28,28,1],strides=[1,2,2,1],padding="SAME"))
                 layers.append(tf.nn.relu(layers[-1]))
 
         Y = tf.reshape(layers[-1],(-1,28*28))
