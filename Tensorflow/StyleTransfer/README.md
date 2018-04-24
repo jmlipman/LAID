@@ -2,4 +2,4 @@
 
 You can find an explanation of the code in the following video: LINK
 
-![Alt text](Utebo.jpg "Title")
+![Alt text](utebo.jpg "Title")
