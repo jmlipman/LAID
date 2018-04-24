@@ -2,10 +2,11 @@
 
 You can find an explanation of the code in the following video: LINK
 
-Original image
+Original image<br>
 <img src="utebo.jpg" width="50%" />
 <br>
 Combinations
+<br>
 <img src="scream.jpg" width="48%" />
 <img src="result1.png" width="48%" />
 <br>
