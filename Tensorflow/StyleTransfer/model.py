@@ -1,7 +1,7 @@
 # Author: Juan Miguel Valverde Martinez
 # Date: 24 April 2018
-# Youtube tutorial link: https://www.youtube.com/watch?v=XXXX
-# Blog: http://laid.delanover.com/
+# Youtube tutorial link: https://www.youtube.com/watch?v=AT-Kf6vwbPs
+# Blog entry: http://laid.delanover.com/image-style-transfer-using-convolutional-neural-networks-tensorflow-implementation/
 
 import numpy as np
 import tensorflow as tf

@@ -1,6 +1,6 @@
 # Style Transfer
 
-You can find an explanation of the code in the following video: LINK
+You can find an explanation of the code in the following video: https://www.youtube.com/watch?v=AT-Kf6vwbPs
 
 Original image<br>
 <img src="utebo.jpg" width="50%" />
