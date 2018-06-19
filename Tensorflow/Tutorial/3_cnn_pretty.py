@@ -81,8 +81,8 @@ with tf.Session() as sess:
         for i in range(epochs):
                 for j in range(0,1000,b_size):
                         print("Epoch: {0}, Iteration: {1}".format(i,j))
-                        x_raw = mnist.test.images[j:j+b_size]
-                        y_raw = mnist.test.labels[j:j+b_size]
+                        x_raw = mnist.train.images[j:j+b_size]
+                        y_raw = mnist.train.labels[j:j+b_size]
 
                         [_,c]=sess.run([train_step,cost],feed_dict={x:x_raw,y:y_raw})
 
